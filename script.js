@@ -13,5 +13,5 @@ let friends = {
 };
 
 for(myFriend in friends){
-    console.log(`It's ${myFriend} and it's age is ${friends[myFriends]}`);
+    console.log(` ${myFriend} and it's age is ${friends[myFriends]}`);
 }
