@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'outfitthin';
+    src: url('outfit-variablefont_wght-webfont.woff2') format('woff2'),
+         url('outfit-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap');
+
+html, body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'outfitthin';
+    font-size: 18px;
+    color: hsl(215, 52%, 70%);
+}
+
+.NFT-card{
+    width: 300px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 2%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.NFT-image{
+    width: 260px;
+    margin: 20px;
+    margin-bottom: 0%;
+    border-radius: 3%;
+}
+
+.NFT-image:hover{
+    /* mix-blend-mode: soft-light; */
+    filter: brightness(60%);
+    -webkit-filter: brightness(60%);
+}
+
+
+.name-contener{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    height: 50px;
+    width: 260px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.NFT-name{
+    text-decoration: none;
+    color: white;
+}
+
+.NFT-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.NFT-detail{
+    position: relative;
+    padding: 20px;
+    padding-top: 0%;
+    margin: 0%;
+}
+
+.NFT-purches-detail{
+    position: relative;
+    bottom: 10px;
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-bottom: 1px solid hsl(215, 52%, 70%);
+}
+
+.NFT-price, .time-remaining{
+    display: flex;
+}
+
+.NFT-price{
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+}
+
+.price-icon, .clock-icon{
+    padding-right: 6px;
+}
+
+.price-icon:hover{
+    transform: rotateY(360deg);
+    transition: 3s;
+}
+
+.NFT-footer{
+    margin: 20px;
+    display: flex;
+}
+
+.image-avatar{
+    height: 30px;
+    border-radius: 50%;
+    border: .5px solid white;
+    position: relative;
+    bottom: 8px;
+    right: 20px;
+}
+
+.creator-name{
+    padding-left: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.creator-name:hover{
+    color: hsl(178, 100%, 50%);
+}
