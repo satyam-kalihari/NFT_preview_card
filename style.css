@@ -92,7 +92,7 @@ html, body{
     padding-right: 6px;
 }
 
-.price-icon{
+.price-icon:hover{
     transform: rotateY(360deg);
     transition: 3s;
 }

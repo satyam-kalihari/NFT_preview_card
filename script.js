@@ -1,4 +1,4 @@
-let age = prompt("Enter your age", 17);
+// let age = prompt("Enter your age", 17);
 
 let friends = {
     "a" : 13,
@@ -7,11 +7,11 @@ let friends = {
 };
 
 for(myFriend in friends){
-    console.log(`It's ${myFriend} and it's age is ${friends[myFriends]}`);
+    console.log(`It's ${myFriend} and it's age is ${friends[myFriend]}`);
 }
 
 //price icon interval
 
-let priceIcon = document.querySelector('.price-icon').innerHTML;
+let priceIcon = document.querySelectorAll('.price-icon:hover').setInterval(priceIcon, 1000);
 
-setInterval(priceIcon, 1000);
+// setInterval(priceIcon, 1000);
