@@ -79,8 +79,13 @@ html, body{
     border-bottom: 1px solid hsl(215, 52%, 70%);
 }
 
+.NFT-purches-detail span{
+    display: flex;
+}
+
 .NFT-price, .time-remaining{
     display: flex;
+    padding-left: 6px;
 }
 
 .NFT-price{
@@ -88,11 +93,13 @@ html, body{
     color: hsl(178, 100%, 50%);
 }
 
-.price-icon, .clock-icon{
-    padding-right: 6px;
+#priceIcon, .clock-icon{
+    align-self: center;
+    height: 18px;
+    /* padding-right: 6px; */
 }
 
-.price-icon:hover{
+.price-icon-transform{
     transform: rotateY(360deg);
     transition: 3s;
 }
