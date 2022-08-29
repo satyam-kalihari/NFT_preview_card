@@ -1,11 +1,5 @@
-let age = prompt("Enter your age", 17);
+let priceIcon = document.getElementById('priceIcon');
 
-let friends = {
-    "a" : 13,
-    "b" : 24,
-    "c" : 10
-};
-
-for(myFriend in friends){
-    console.log(`It's ${myFriend} and it's age is ${friends[myFriends]}`);
-}
+setInterval(() => {
+    priceIcon.classList.toggle('price-icon-transform');
+}, 2000)
